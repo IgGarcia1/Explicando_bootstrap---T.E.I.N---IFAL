@@ -1,0 +1,74 @@
+.centralizado{
+	text-align: center;
+}
+
+#conteudo{
+	margin-top: 5px;
+}
+
+iframe{
+	width: 100%;
+	height: 90%;
+	border: none;
+  	box-shadow: 5px 5px 5px 5px #888888;
+  	padding-top: 15px;
+}
+
+a{
+	cursor: pointer;
+}
+
+p{
+	text-indent: 1.5em;
+}
+
+pre, code{
+	margin-left: -43%;
+}
+
+.tituloExemplificacao{
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+}
+
+.tag::before{
+	content: "<"
+}
+.tag::after{
+	content: ">"
+}
+
+/* Alert.php*/
+
+.demonstracaoList, .codigoList{
+	text-align: right;
+	font-style: italic;
+}
+
+.codigoList{
+	/*background-color: rgba(0,0,0,0.3);*/
+	color: black;
+}
+.codeDivList{
+	background-color: rgba(0,0,0,0.3);
+	padding: 1%;
+	border-radius: 10px;
+}
+
+
+.subitem{
+	list-style: none;
+}
+.itemList{
+	margin-top: 15px;
+}
+
+/* Button.php */
+textarea:disabled{
+	resize: none;
+}
+
+#body{
+	/*background-color: rgba(0,0,0,1);*/
+}
