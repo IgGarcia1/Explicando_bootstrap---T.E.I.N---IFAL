@@ -162,6 +162,106 @@
 						</td>
 					</tr>
 
+					<tr>
+						<td>Contorno</td>
+						<td>
+							<button class="btn btn-outline-success"> Botão </button>
+						</td>
+						<td>
+							<div class="codeDivList">
+								<span class="tag" >button class="btn btn-outline-success"</span> 
+								Botão
+								<span class="tag">/button</span> 
+							</div>
+						</td>
+					</tr>
+
+
+					<tr>
+						<td>Contorno</td>
+						<td>
+							<button class="btn btn-outline-danger"> Botão </button>
+						</td>
+						<td>
+							<div class="codeDivList">
+								<span class="tag" >button class="btn btn-outline-danger"</span> 
+								Botão
+								<span class="tag">/button</span> 
+							</div>
+						</td>
+					</tr>
+
+
+					<tr>
+						<td>Contorno</td>
+						<td>
+							<button class="btn btn-outline-warning"> Botão </button>
+						</td>
+						<td>
+							<div class="codeDivList">
+								<span class="tag" >button class="btn btn-outline-warning"</span> 
+								Botão
+								<span class="tag">/button</span> 
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Contorno</td>
+						<td>
+							<button class="btn btn-outline-primary"> Botão </button>
+						</td>
+						<td>
+							<div class="codeDivList">
+								<span class="tag" >button class="btn primary"</span> 
+								Botão
+								<span class="tag">/button</span> 
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Contorno</td>
+						<td>
+							<button class="btn btn-outline-secondary"> Botão </button>
+						</td>
+						<td>
+							<div class="codeDivList">
+								<span class="tag" >button class="btn btn-outline-secondary"</span> 
+								Botão
+								<span class="tag">/button</span> 
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Contorno</td>
+						<td>
+							<button class="btn btn-outline-dark"> Botão </button>
+						</td>
+						<td>
+							<div class="codeDivList">
+								<span class="tag" >button class="btn btn-outline-dark"</span> 
+								Botão
+								<span class="tag">/button</span> 
+							</div>
+						</td>
+					</tr>
+
+					<tr>
+						<td>Contorno</td>
+						<td>
+							<button class="btn btn-outline-info"> Botão </button>
+						</td>
+						<td>
+							<div class="codeDivList">
+								<span class="tag" >button class="btn btn-outline-info"</span> 
+								Botão
+								<span class="tag">/button</span> 
+							</div>
+						</td>
+					</tr>
+
 				</tbody>
 			</table>
 
