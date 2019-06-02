@@ -5,181 +5,68 @@
 		<h1> Alertas </h1>
 
 		<div>
-			<br/>
-			<p> 
+			
+			<div>
+				<h2>Definição</h2>
+				<p> 
 				Alertas são usadas para dar respostas sobre determinadas ações para o usuário. Como por exemplo quando um item é adicionado a uma lista ou deletado.
-			</p>
+				</p>
+			</div>
+			<div>
+				<h2>Usando alerts</h2>
+				<p>Para indicar que uma div será um alerta basta colocar a classe <strong><em>.alert</em></strong>. </p>
+				<p>Para adicionar cor ao alerta recém criado podem ser usadas as <a href="./classes-gerais.php">"classes gerais"</a>, adicionando a classe 
+				<strong><em>.alert-</em></strong>[uma classe geral]. 
+				</p>
 
-			<span class="tituloExemplificacao"> Exemplos </span> 
+				<div class="container">
+					<span class="tituloExemplificacao"> Exemplo </span> 
+					<br>
+					<div class="demonstracaoList"> Demonstração </div>
+					<div class="alert alert-success"> Alerta simples para demonstração de sucesso. </div>
+					<div class="codeDivList">
+						<div class="codigoList"> Código </div> 
+						<span class="tag" >div class="alert alert-success"</span> 
+						Alerta simples para demonstração de sucesso.
+						<span class="tag">/div</span> 
+					</div>
+				</div>
+				<br>
 
-			<ul>
-				<li class="itemList"> Sucesso
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-success"> Alerta simples para demonstração de sucesso. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div> 
-								<span class="tag" >div class="alert alert-success"</span> 
-								Alerta simples para demonstração de sucesso.
-								<span class="tag">/div</span> 
-							</div>
+				<hr>
 
-						</li>
-					</ul>
-				</li>
+				Podemos ainda adicionar a opção de fechar esse alert. Basta que seja feito duas coisas: <br>
+				<ul>
+					<li>Adicione o seguinte trecho na classe .alert: <strong><em>-dismissible</em> </strong>. </li>
+					<li>
+						Adicionar o seguinte código dentro da div que será o alerta
+						<textarea  rows="1" disabled class="form-control">
+<button type="button" class="close" data-dismiss="alert">×</button></textarea>
+					</li>
+				</ul>
 
-				<li class="itemList"> Informação
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-info"> Alerta de informação. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert alert-info"</span> 
-								Alerta de informação.
-								<span class="tag">/div</span> 
-							</div>
+				<div class="container">
+					<span class="tituloExemplificacao"> Exemplo </span> 
+					<br>
+					<div class="demonstracaoList"> Demonstração </div>
+					<div class="alert alert-success alert-dismissible"> 
+						<button type="button" class="close" data-dismiss="alert">×</button>
+						Alerta simples para demonstração de sucesso. 
+					</div>
+					<div class="codeDivList">
+						<div class="codigoList"> Código </div> 
+						<span class="tag" >div class="alert alert-success alert-dismissible"</span>
+						<br>
+						<span class="tag">button type="button" class="close" data-dismiss="alert"</span>x<span class="tag">/button</span> <br>
+						Alerta simples para demonstração de sucesso. <br>
+						<span class="tag">/div</span> 
+					</div>
+				</div>
+			</div>
 
-						</li>
-					</ul>
-				</li>
-
-
-				<li class="itemList"> Erro
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-danger"> Alerta de erro. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert alert-danger"</span> 
-								Alerta de erro.
-								<span class="tag">/div</span> 
-							</div>
-
-						</li>
-					</ul>
-				</li>
-
-				<li class="itemList"> Aviso
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-warning"> Alerta de aviso. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert alert-warning"</span> 
-								Alerta de aviso.
-								<span class="tag">/div</span> 
-							</div>
-
-						</li>
-					</ul>
-				</li>
-
-				<li class="itemList"> Primário
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-primary"> Alerta primario. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert alert-primary"</span> 
-								Alerta primario.
-								<span class="tag">/div</span> 
-							</div>
-
-						</li>
-					</ul>
-				</li>
-
-				<li class="itemList"> Secundario
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-secondary"> Alerta secundário. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert alert-secondary"</span> 
-								Alerta secundário.
-								<span class="tag">/div</span> 
-							</div>
-
-						</li>
-					</ul>
-				</li>
-
-				<li class="itemList"> Padrão
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert"> Alerta padrão. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert"</span> 
-								Alerta padrão.
-								<span class="tag">/div</span> 
-							</div>
-
-						</li>
-					</ul>
-				</li>
-
-				<li class="itemList"> Claro
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-light"> Alerta claro. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert alert-light"</span> 
-								Alerta claro.
-								<span class="tag">/div</span> 
-							</div>
-
-						</li>
-					</ul>
-				</li>
-
-				<li class="itemList"> Escuro
-					<ul class="subitem">
-						<li>
-							<div class="demonstracaoList"> Demonstração </div>
-							<div class="alert alert-dark"> Alerta escuro. </div>		
-						</li>
-						<li>
-							<div class="codeDivList">
-								<div class="codigoList"> Código </div>
-								<span class="tag" >div class="alert alert-dark"</span> 
-								Alerta escuro.
-								<span class="tag">/div</span> 
-							</div>
-
-						</li>
-					</ul>
-				</li>
-
-			</ul>
 			
 		</div>
 	
 	</div>
-
+	<br><br><br>
 <?php include("rodapeExplicacoes.php");?>

@@ -4,18 +4,16 @@
 		
 		<h1> Tabela </h1>
 		<div>
-			<br>
-			<p>	
-				Estrutura usada para organizar dados.
-			</p>
-			<span class="tituloExemplificacao"> Exemplos </span> 
-			
+			<h2>Definição</h2> <br>
+			<p>Estrutura usada para organizar dados. Em geral esses dados são categorizados com os chamados cabeçarios. </p>
+
+			<h2>Usando tabelas</h2>
+			<p>Para utilizar as opções de tabela do bootstrap basta que coloque a classe <em>.table</em>.</p>
+
+			<span class="tituloExemplificacao"> Exemplo</span> 
 			<div>
 				<br/>
-
-				<div>
-					<h5>Exemplo simples</h5>
-					<br/>
+				<div class="container" >
 					<table class="table">
 						<thead>
 							<tr>
@@ -47,43 +45,61 @@
 				<div>
 					<br/>
 					<h5>Código</h5>
-					<textarea class="form-control vresize" rows="27" disabled>
-<table class="table">
-	<thead>
-		<tr>
-			<th scope="col">#</th>
-			<th scope="col">Nome</th>
-			<th scope="col">Email</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row">1</th>
-			<td>Mark</td>
-			<td>mark@email.com</td>
-		</tr>
-		<tr>
-			<th scope="row">2</th>
-			<td>Jacob</td>
-			<td>jacob@email.com</td>
-		</tr>
-		<tr>
-			<th scope="row">3</th>
-			<td>Larry</td>
-			<td>larry@email.com</td>
-		</tr>
-	</tbody>
-</table>
-					</textarea>				
-				</div>
-			</div>
 
+					<div class="codeDivList">
+						<pre><code>
+							<span class="tag">table class="table"</span> 
+								<span class="tag">thead</span>  
+									<span class="tag">tr</span>
+										<span class="tag">th scope="col"</span> # <span class="tag">/th</span>
+										<span class="tag">th scope="col"</span> Nome <span class="tag">/th</span>
+										<span class="tag">th scope="col"</span> Email <span class="tag">/th</span>  
+									<span class="tag">/tr</span> 
+								<span class="tag">/thead</span>
+								<span class="tag">tbody</span>
+									<span class="tag">tr</span> 
+										<span class="tag">td scope="row"</span>1<span class="tag">/th</span>
+										<span class="tag">td</span>Mark<span class="tag">/td</span>
+										<span class="tag">td</span>mark@email.com<span class="tag">/td</span>
+
+									<span class="tag">/tr</span>
+									
+									<span class="tag">tr</span>
+										<span class="tag">td scope="row"</span>2<span class="tag">/th</span>
+										<span class="tag">td</span>Jacob<span class="tag">/td</span>
+										<span class="tag">td</span>jacob@email.com<span class="tag">/td</span>
+
+									<span class="tag">/tr</span>
+
+									<span class="tag">tr</span> 
+										<span class="tag">td scope="row"</span>3<span class="tag">/th</span>
+										<span class="tag">td</span>Larry<span class="tag">/td</span>
+										<span class="tag">td</span>larry@email.com<span class="tag">/td</span>
+
+									<span class="tag">/tr</span>
+								<span class="tag">/tbody</span> 
+							<span class="tag">/table</span>
+						</code></pre>
+					</div>
+
+				</div>
+				<br>
+				<ul>
+					<li>A classe <em>.table</em> indica a formatação de uma tabela.</li>
+					<li>As classes <em>.col</em> e <em>.row</em> são formatações de <a href="./grid.php" target="_black">grid</a>.</li>
+				</ul>
+			</div>
 			<br/>
+			
 			<div>
 				<div>
-					<h5>Tabela com tema escuro</h5>
+					<h2>Tabela com personalização de tema</h2>
 					<br/>
-					<table class="table table-dark">
+					<p>A personalização das tabelas pode ser feita tanto manualmente, quanto utilizando as 
+					<a href="./classes-gerais.php">"classes gerais"</a> do bootstrap, basta que coloque o prefixo <em>.table-</em> mais o tema desejado.
+					Por exemplo, para deixarmos uma tabela com tema de sucesso basta colocarmos a classe <em>.table-success</em> na tag <i>table</i>.</p>
+					<br>
+					<table class="table table-success">
 						<thead>
 							<tr>
 								<th scope="col">#</th>
@@ -110,29 +126,19 @@
 						</tbody>
 					</table>
 				</div>
+				<h5>Código</h5>
 				<div class="codeDivList">
-					<h5>Código</h5>
-					Basta que adicione a classe .table-dark na tag table
-					<pre>
-						<code>
-							<span class="tag">table class="table table-dark"</span>
+					<pre><code>
+							<span class="tag">table class="table table-success"</span>
 							...
-							<span class="tag">/table</span>
-						</code>
-					</pre>
-
+							<span class="tag">/table</span></code></pre>
 				</div>
 			</div>
-
-			<br/>
-			<hr/>
-			
+			<!-- ##################################################	-->
 			<div>
-
-				<h5>Tabela com cabeçário tematizados</h5>
-
+				<br> <br>
+				<p>É possível tematizar apenas parte da tabela, como, por exemplo, os cabeçarios.</p>
 				<div>
-
 					<table class="table">
 						<thead>
 							<th>Tema</th>
@@ -161,16 +167,14 @@
 									</table>
 								</td>
 								<td>
-									<textarea class="form-control" rows="9" disabled>
-<table class="table">
+									<textarea class="form-control" rows="8" disabled><table class="table">
 	<thead class="thead-light">
 		...
 	</thead>
 	<tbody>
 		...
 	</tbody>
-</table>
-									</textarea>
+</table></textarea>
 								</td>
 							</tr>
 							<tr>
@@ -194,16 +198,14 @@
 									</table>
 								</td>
 								<td>
-									<textarea class="form-control" rows="9" disabled>
-<table class="table">
+									<textarea class="form-control" rows="8" disabled><table class="table">
 	<thead class="thead-dark">
 		...
 	</thead>
 	<tbody>
 		...
 	</tbody>
-</table>
-									</textarea>
+</table></textarea>
 								</td>
 							</tr>
 						</tbody>

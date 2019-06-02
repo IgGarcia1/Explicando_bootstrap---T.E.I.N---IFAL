@@ -4,8 +4,12 @@
 	<div class="container">
 
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		  <a class="navbar-brand" onclick="trocaConteudoIFrame('./bem-vindo.php')" style="color:white;">IF</a>
-
+		  <a class="navbar-brand" onclick="trocaConteudoIFrame('./explicacoes/bem-vindo.php')" style="color:white;">
+				<img src="./imagens/if.svg.png" alt="Logo if" width="20px;">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    	</button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    
 		    <ul class="navbar-nav">
@@ -30,6 +34,9 @@
 		      	</li>
 		      	<li class="nav-item" id="table">
 		        	<a class="nav-link" onclick="trocaConteudoIFrame('./explicacoes/table.php')" >Table</a>
+						</li>
+						<li class="nav-item" id="geral">
+		        	<a class="nav-link" onclick="trocaConteudoIFrame('./explicacoes/classes-gerais.php')" >Classes gerais</a>
 		      	</li>
 		    </ul>
 
@@ -37,7 +44,7 @@
 		</nav>
 
 		<div id="conteudo">
-			<iframe src="./bem-vindo.php" id="iframeDeConteudo"></iframe>
+			<iframe src="./explicacoes/bem-vindo.php" id="iframeDeConteudo"></iframe>
 		</div>
 	</div>
 

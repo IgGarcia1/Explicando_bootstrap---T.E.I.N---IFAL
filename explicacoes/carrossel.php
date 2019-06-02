@@ -2,25 +2,31 @@
 
 	<style type="text/css">
 		img{
-			
 			max-height: 600px;
 			max-height: 600px;
 			width: 100%;
 			height: auto;
 		}
 	</style>
+	
 	<div class="container">
-		
-		<h1> Carrossel </h1>
 
-		<div>
-		
-			<p>
-				Sequência de slides que ficam alternando entre si com o decorrer o tempo. 
-			</p>	
+			<h1>Carrossel</h1>
 
-			<span class="tituloExemplificacao"> Exemplos </span> 
-			<br/> <br/>
+			<div>
+				<h2>Definição</h2>
+				<br>
+				<p>Sequência de slides que ficam alternando entre si com o decorrer o tempo. </p>
+				<span class="tituloExemplificacao"> Exemplo </span> 
+				<br/> <br/>
+			</div>
+	</div>
+
+
+
+	<div class="container">
+
+			
 
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
@@ -113,6 +119,7 @@ $('.carousel').carousel({
 			<br><br>
 		</div>
 	</div>
+
 	<script type="text/javascript">
 		$('.carousel').carousel({
 			interval: 2000

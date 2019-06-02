@@ -20,7 +20,7 @@ a{
 }
 
 p{
-	text-indent: 1.5em;
+	text-indent: 1em;
 }
 
 pre, code{
@@ -28,7 +28,7 @@ pre, code{
 }
 
 .tituloExemplificacao{
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	color: black;
 }
@@ -52,7 +52,7 @@ pre, code{
 	color: black;
 }
 .codeDivList{
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgb(230, 215, 215);
 	padding: 1%;
 	border-radius: 10px;
 }
@@ -68,8 +68,14 @@ pre, code{
 /* Button.php */
 textarea:disabled{
 	resize: none;
+	overflow: auto;
 }
 
 #body{
 	background-color: rgba(0,0,0,0.6);
+}
+
+h1{
+	margin-bottom: 30px;
+	text-align: center;
 }
