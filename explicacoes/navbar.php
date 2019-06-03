@@ -86,10 +86,13 @@
                 a aparência de uma dropbox.</p>
 
                 <div class="codeDivList">
-                    <pre><code>3. <span class="tag">button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"</span>
-4.          <span class="tag">span class="navbar-toggler-icon"</span> <span class="tag">/span</span>
-5. <span class="tag">/button</span></code></pre></div>
+                    <pre>
+                        <code>
+                                                    3. <span class="tag">button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                                                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"</span>
+                                                    4.          <span class="tag">span class="navbar-toggler-icon"</span> <span class="tag">/span</span>
+                                                    5. <span class="tag">/button</span></code></pre>
+                    </div>
                 <br>
                 <p>Entre as linhas oito e dezoito estamos declarando as opções de navegação com a classe <em>.nav-item</em> em cada item.</p>
 
